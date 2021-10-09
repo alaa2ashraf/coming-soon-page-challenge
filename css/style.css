@@ -1,0 +1,188 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+:root {
+
+--Desaturated-Red: hsl(0, 36%, 70%);
+--Soft-Red: hsl(0, 93%, 68%);
+--Dark-Grayish-Red: hsl(0, 6%, 24%);
+
+}
+body {
+    background: url("../images/bg-pattern-desktop.svg"),linear-gradient(135deg,hsl(0, 0%, 100%),hsl(0, 100%, 98%));
+  
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    height: 100vh;
+    min-height: 100vh;
+    background-position-x: 8rem;
+}
+
+.logo img {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    padding-left: 15px;
+
+}
+
+
+.one,.two,.hello {
+    text-align: center;
+}
+.one,.hello {
+    color: var(--Desaturated-Red);
+}
+.one {
+    font-weight: 300;
+    font-size: 3rem;
+    margin-top: 75px;
+    letter-spacing: 14px;
+}
+.hello {
+    padding-bottom: 24px;
+}
+.two {
+    font-weight: 600;
+    font-size: 3rem;
+    letter-spacing: 14px;
+    padding-bottom: 10px;
+}
+input {
+    border: 1px solid var(--Desaturated-Red);
+    border-radius: 20px 20px 20px 20px;
+    width: 100%;
+    height: 100%;
+  
+    padding: 15px 17px;
+    outline: none;
+    position: relative;
+    margin-bottom: 15px;
+
+}
+.mail {
+    position: relative;
+    margin-right: 32px;
+    margin-left: 32px;
+}
+.arrow {
+    
+    padding: 22px;
+    background-image: linear-gradient(135deg,hsl(0, 80%, 86%),hsl(0, 74%, 74%));
+  
+    border-radius: 20px 20px 20px 20px;
+    position: absolute;
+ border: 0;
+    top: 0;
+    right: 0;
+    padding-right: 32px;
+    padding-left: 32px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    box-shadow: 0px 0px 20px -4px hsl(0deg 36% 70%);
+  
+}
+
+.desk {
+    display: none;
+}
+.mob {
+    width: 100%;
+    
+}
+.girl {
+    padding: 0px;
+    margin: 0px;
+}
+::placeholder {
+    color: var(--Desaturated-Red);
+    opacity: 1;
+}
+.desk {
+    width: 100%;
+}
+#msg {
+    margin-top: 0;
+}
+.icon-error {
+    position: absolute;
+    top: 36%;
+    transform: translateY(-50%);
+    right: 5.8rem;
+    z-index: 10;
+    display: none;
+}
+form {
+    position: relative;
+}
+
+
+@media screen  and (min-width:1020px){
+.main-1 {
+    display: flex;
+  
+    
+}
+.mob {
+    display: none;
+}
+.desk {
+   display: block;
+   
+   width: 462px;
+   height: 622px;
+}
+
+.logo {
+    position: absolute;
+    
+    top: 0;
+    left: 141px;
+}
+
+.one {
+   
+    margin-top: 177px;
+    margin-right: 220px;
+
+}
+
+.two {
+    margin-left: -71px;
+
+}
+.soon {
+    
+    margin-left: -138px;
+
+}
+.heading {
+    margin-left: 162px;
+}
+.mail-content {
+    width: 43%;
+ 
+    margin-left: 162px;
+
+}
+.hello {
+    text-align: left;
+}
+input {
+    margin-bottom: 10px;
+}
+.mail {
+    margin-left: -1px
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.icon-error {
+    top: 41%;
+    display: none;
+}
+
+}
